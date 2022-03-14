@@ -51,5 +51,26 @@ class MathOperationsTest {
         assertEquals(2, mathOperations.average(new int[]{1, 2, 3}));
     }
 
+    @Test
+    public void testPower() {
+
+        //TODO add stub for making the average method work in mathOperations class
+        assertEquals(8, mathOperations.power(2, 3));
+    }
+
+    @Test
+    public void testMidValue() {
+
+        //TODO add stub for making the average method work in mathOperations class
+        assertEquals(10, mathOperations.midValue(5, 15));
+    }
+
+    @Test
+    public void testFToC() {
+
+        //TODO add stub for making the average method work in mathOperations class
+        assertEquals(0, mathOperations.fahrenheitToCelsius(32));
+    }
+
 
 }
